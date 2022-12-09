@@ -1,5 +1,5 @@
 const CoinKey = require('coinkey')
-
+//commentaires
 const ck = new CoinKey.createRandom()
 
 console.log("Private Key (Wallet Import Format): " + ck.privateWif)
